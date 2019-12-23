@@ -6,7 +6,7 @@ turtle.fd(-250)  # forward(d)/fd(d):直行d个像素
 turtle.pendown()  # 落下画笔
 turtle.pensize(10)  # 画笔宽度
 turtle.pencolor("green")  # 画笔颜色
-turtle.seth(-40)  # 改变前进方向，()内为倾斜角度
+turtle.seth(-40)  # 改变前进方向，()内为倾斜角度 turtle.setheading(angle)
 '''----------body----------------'''
 for  i in range(2):  # snake的弯曲节数
     turtle.pencolor("green")
